@@ -1,25 +1,29 @@
-# Housing Price Prediction
-> A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia
+# Heart Diseases Prediction
+> We have a Data of patient lifestyle information. We have to Create a machine learning Model to Predict risk of heart diseases and Evaluate the Accuracy Score 
 
 
 ## General Information
-- A US-based housing company named Surprise Housing has decided to enter the Australian market.
-- The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. 
-- the company has collected a data set from the sale of houses in Australia
+### Siuation : 
+ - We have a data of human body and Habits like smoking, cholesterol level etc..
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+### Task : 
+ - Predict risk of heart diseases from patient lifestyle information.
 
-## Conclusions
-- Lasso Regression is more accurate than Ridge Regression in this project
-- R2 score is 0.84 ,0.82 on train and test data respectivly
-- Value of lambda is 2 and Alpha is 0.3,100 respectively on Ridge and lasso regression
+### Action : 
+ - Use Logistic Regression with pca feature selection.
+ - Use Random Forest
+
+### Result : 
+ - From the PCA we conclude that 100% data variance can be explained by 6 components
+ - Accuracy Score of **Logistic Regression** is 68%.
+ - Accuracy Score of **Random Forest** is 71%.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
 - Python
-- Pandas,Numpy,matplotlib,seabort
+- Pandas,Numpy,matplotlib,seaborn
 - Sklearn
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
